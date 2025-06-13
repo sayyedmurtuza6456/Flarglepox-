@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flarglepox Sensi</title>
+  <style>
+    body { font-family: sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
+    header { background: #1a1a1a; color: white; padding: 20px; text-align: center; }
+    .container { max-width: 800px; margin: 20px auto; background: white; padding: 20px; border-radius: 10px; }
+    .plan { border: 1px solid #ddd; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
+    .plan h2 { margin-top: 0; }
+    .btn { display: inline-block; padding: 10px 20px; color: white; background: #007bff; border-radius: 5px; text-decoration: none; }
+    .screenshot-upload { margin-top: 10px; }
+    .upi { background: #fffbdd; padding: 10px; border-radius: 5px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Flarglepox Sensi</h1>
+    <p>Unlock Free Fire Sensitivity Settings</p>
+  </header>
+
+  <div class="container">
+    <div class="plan">
+      <h2>Android Sensitivity - ₹99</h2>
+      <p>Pay via UPI to: <span class="upi">9552225594@ybl</span></p>
+      <a class="btn" href="#upload">Upload Payment Screenshot</a>
+    </div>
+
+    <div class="plan">
+      <h2>iOS Sensitivity - ₹199</h2>
+      <p>Pay via UPI to: <span class="upi">9552225594@ybl</span></p>
+      <a class="btn" href="#upload">Upload Payment Screenshot</a>
+    </div>
+
+    <div id="upload">
+      <h3>Upload Payment Screenshot</h3>
+      <form action="mailto:youremail@example.com" method="post" enctype="multipart/form-data">
+        <input type="text" name="email" placeholder="Your Email" required /><br /><br />
+        <input type="file" name="screenshot" accept="image/*" required /><br /><br />
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+      <p><small>After verification, your access will be unlocked manually.</small></p>
+    </div>
+  </div>
+</body>
+</html>
